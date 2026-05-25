@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dl-color-iris-60: rgba(165, 166, 246, 1);
+  --dl-color-iris-80: rgba(120, 121, 241, 1);
+  --dl-color-iris-100: rgba(93, 95, 239, 1);
+  --dl-color-fuschia-60: rgba(252, 221, 236, 1);
+  --dl-color-fuschia-80: rgba(241, 120, 182, 1);
+  --dl-color-fuschia-100: rgba(239, 93, 168, 1);
+  --dl-layout-size-large: 144px;
+  --dl-layout-size-small: 48px;
+  --dl-layout-space-unit: 16px;
+  --dl-layout-size-medium: 96px;
+  --dl-layout-size-xlarge: 192px;
+  --dl-layout-size-xsmall: 16px;
+  --dl-color-theme-accent1: #FFFFFF;
+  --dl-color-theme-accent2: #F5D1B0;
+  --dl-layout-radius-round: 50%;
+  --dl-layout-size-xxlarge: 288px;
+  --dl-color-theme-primary1: #BF4408;
+  --dl-color-theme-primary2: #E65103;
+  --dl-layout-size-maxwidth: 1400px;
+  --dl-layout-radius-radius2: 2px;
+  --dl-layout-radius-radius4: 4px;
+  --dl-layout-radius-radius8: 8px;
+  --dl-layout-space-halfunit: 8px;
+  --dl-layout-space-sixunits: 96px;
+  --dl-layout-space-twounits: 32px;
+  --dl-color-theme-secondary1: #FFFFFF;
+  --dl-color-theme-secondary2: #FBF1EB;
+  --dl-layout-space-fiveunits: 80px;
+  --dl-layout-space-fourunits: 64px;
+  --dl-layout-space-threeunits: 48px;
+  --dl-color-theme-neutral-dark: #191818;
+  --dl-layout-radius-cardradius: 8px;
+  --dl-color-theme-neutral-light: #FBFAF9;
+  --dl-layout-radius-imageradius: 8px;
+  --dl-layout-radius-inputradius: 24px;
+  --dl-layout-radius-buttonradius: 24px;
+  --dl-layout-space-oneandhalfunits: 24px;
+}
+
+html {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-theme-neutral-dark);
+  background: var(--dl-color-theme-neutral-light);
+}
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  -webkit-font-smoothing: antialiased;
+}
+
+p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+img {
+  display: block;
+}

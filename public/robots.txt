@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://death-wishs-team-library-k16ejp.teleporthq.app/sitemap.xml

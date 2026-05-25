@@ -1,0 +1,364 @@
+.desktop-login-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop-login-thq-desktop-login-elm {
+  width: 100%;
+  height: 1020px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-login-thq-bg-elm {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1020px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-vector4-elm {
+  top: 791px;
+  left: -271px;
+  width: 1946px;
+  height: 530px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-frame10-elm {
+  top: 241px;
+  left: 740px;
+  width: 400px;
+  height: 630px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 8px 8px 0px rgba(116, 69, 48, 1) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(151, 100, 77, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+ 
+.desktop-login-thq-beigeand-grey-elegant-aesthetic-minimal-beauty-studio-bra-elm {
+  top: -17px;
+  left: -111px;
+  width: 746px;
+  height: 779px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop-login-thq-donthaveanaccount-elm {
+  top: 427px;
+  left: 36px;
+  width: 329px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-login-thq-text-elm1 {
+  top: 98px;
+  left: 33px;
+  color: rgba(0, 0, 0, 1);
+  width: 232px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-thq-text-elm2 {
+  left: 112px;
+  color: rgba(71, 55, 42, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-thq-text-elm3 {
+  top: 98px;
+  left: 232px;
+  color: rgba(93, 43, 0, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.desktop-login-thq-line3-elm {
+  top: 13px;
+  left: 0px;
+  width: 94px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-line4-elm {
+  top: 14px;
+  left: 235px;
+  width: 94px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-rectangle5-elm {
+  top: 39px;
+  left: 81px;
+  width: 69px;
+  height: 43px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-login-thq-rectangle6-elm {
+  top: 39px;
+  left: 170px;
+  width: 69px;
+  height: 43px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-login-thq-apple-elm {
+  top: 44px;
+  left: 103px;
+  width: 26px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-google-glogosvg2-elm {
+  top: 48px;
+  left: 192px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-gradient-elm {
+  top: -18px;
+  left: -36px;
+  width: 1476px;
+  height: 673px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-credentials-elm {
+  top: 312px;
+  left: 793px;
+  width: 383px;
+  height: 319px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop-login-thq-text-elm4 {
+  color: rgba(87, 55, 40, 1);
+  width: 383px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Cinzel;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-thq-text-elm5 {
+  top: 54px;
+  left: 68px;
+  color: rgba(87, 55, 40, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-thq-rectangle3-elm {
+  top: 145px;
+  left: 17px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-login-thq-rectangle4-elm {
+  top: 203px;
+  left: 17px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-login-thq-text-elm6 {
+  top: 158px;
+  left: 64px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-thq-text-elm7 {
+  top: 214px;
+  left: 64px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-thq-icon-elm1 {
+  top: 158px;
+  left: 33px;
+  width: 21px;
+  height: 19px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-icon-elm2 {
+  top: 214px;
+  left: 36px;
+  width: 18px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.desktop-login-thq-button-elm {
+  top: 269px;
+  left: 19px;
+  width: 258px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.desktop-login-thq-text-elm8 {
+  top: 281px;
+  left: 115px;
+  color: rgba(255, 234, 190, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-login-link {
+  display: contents;
+}
+ 
+.desktop-login-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.desktop-login-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.desktop-login-text {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

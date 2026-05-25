@@ -1,0 +1,655 @@
+.desktop-signup-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop-signup-thq-desktop-signup-elm {
+  width: 100%;
+  height: 1020px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-signup-thq-bg-elm {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1020px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-vector4-elm {
+  top: 791px;
+  left: -271px;
+  width: 1946px;
+  height: 530px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-frame10-elm {
+  top: 241px;
+  left: 740px;
+  width: 400px;
+  height: 630px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 8px 8px 0px rgba(116, 69, 48, 1) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(151, 100, 77, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+ 
+.desktop-signup-thq-beigeand-grey-elegant-aesthetic-minimal-beauty-studio-bra-elm {
+  top: -17px;
+  left: -111px;
+  width: 746px;
+  height: 779px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop-signup-thq-donthaveanaccount-elm {
+  top: 464px;
+  left: 36px;
+  width: 329px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-signup-thq-text-elm10 {
+  top: 98px;
+  left: 31px;
+  color: rgba(0, 0, 0, 1);
+  width: 232px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm11 {
+  left: 112px;
+  color: rgba(71, 55, 42, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm12 {
+  top: 98px;
+  left: 245px;
+  color: rgba(93, 43, 0, 1);
+  width: 62px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.desktop-signup-thq-line3-elm {
+  top: 13px;
+  left: 0px;
+  width: 94px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-line4-elm {
+  top: 14px;
+  left: 235px;
+  width: 94px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-rectangle5-elm1 {
+  top: 39px;
+  left: 81px;
+  width: 69px;
+  height: 43px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle6-elm {
+  top: 39px;
+  left: 170px;
+  width: 69px;
+  height: 43px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-apple-elm {
+  top: 44px;
+  left: 103px;
+  width: 26px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-google-glogosvg2-elm {
+  top: 48px;
+  left: 192px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-gradient-elm {
+  top: -18px;
+  left: -36px;
+  width: 1476px;
+  height: 673px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-credentials-elm1 {
+  top: 289px;
+  left: 776px;
+  width: 459px;
+  height: 398px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop-signup-thq-text-elm13 {
+  color: rgba(87, 55, 40, 1);
+  width: 383px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Cinzel;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm14 {
+  top: 55px;
+  left: 22px;
+  color: rgba(87, 55, 40, 1);
+  width: 437px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-rectangle2-elm1 {
+  top: 123px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle3-elm1 {
+  top: 176px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle4-elm1 {
+  top: 231px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle5-elm2 {
+  top: 286px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-vector-elm1 {
+  top: 135px;
+  left: 49px;
+  width: 20px;
+  height: 22px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-text-elm15 {
+  top: 134px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm16 {
+  top: 189px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm17 {
+  top: 242px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm18 {
+  top: 297px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-icon-elm1 {
+  top: 189px;
+  left: 49px;
+  width: 21px;
+  height: 19px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-icon-elm2 {
+  top: 242px;
+  left: 52px;
+  width: 18px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-icon-elm3 {
+  top: 297px;
+  left: 51px;
+  width: 18px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-button-elm1 {
+  top: 348px;
+  left: 35px;
+  width: 258px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.desktop-signup-thq-text-elm19 {
+  top: 360px;
+  left: 131px;
+  color: rgba(255, 234, 190, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-credentials-elm2 {
+  top: 289px;
+  left: 776px;
+  width: 459px;
+  height: 398px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop-signup-thq-text-elm20 {
+  color: rgba(87, 55, 40, 1);
+  width: 383px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Cinzel;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm21 {
+  top: 55px;
+  left: 22px;
+  color: rgba(87, 55, 40, 1);
+  width: 437px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-rectangle2-elm2 {
+  top: 123px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle3-elm2 {
+  top: 176px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle4-elm2 {
+  top: 231px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-rectangle5-elm3 {
+  top: 286px;
+  left: 33px;
+  width: 260px;
+  height: 45px;
+  position: absolute;
+  border-color: rgba(219, 193, 178, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+ 
+.desktop-signup-thq-vector-elm2 {
+  top: 135px;
+  left: 49px;
+  width: 20px;
+  height: 22px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-text-elm22 {
+  top: 134px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm23 {
+  top: 189px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm24 {
+  top: 242px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-text-elm25 {
+  top: 297px;
+  left: 80px;
+  color: rgba(121, 78, 58, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-thq-icon-elm4 {
+  top: 189px;
+  left: 49px;
+  width: 21px;
+  height: 19px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-icon-elm5 {
+  top: 242px;
+  left: 52px;
+  width: 18px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-icon-elm6 {
+  top: 297px;
+  left: 51px;
+  width: 18px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.desktop-signup-thq-button-elm2 {
+  top: 348px;
+  left: 35px;
+  width: 258px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.desktop-signup-thq-text-elm26 {
+  top: 360px;
+  left: 131px;
+  color: rgba(255, 234, 190, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-signup-link {
+  display: contents;
+}
+ 
+.desktop-signup-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.desktop-signup-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.desktop-signup-text {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
