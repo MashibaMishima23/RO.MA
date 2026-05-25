@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { assetUrl } from '../utils/assetUrl'
 
 const navLinks = [
   { label: 'Home', to: '/dashboard' },
@@ -19,14 +20,14 @@ const Header = ({ userName = 'habibi<3' }) => {
       {/* Background shapes */}
       <div className="absolute inset-0">
         <img
-          src="/Vector 26.svg"
+          src={assetUrl('/Vector 26.svg')}
           alt=""
           aria-hidden="true"
           className="w-full object-cover absolute top-0 h-[120px] md:h-[212px]"
           style={{ zIndex: 0 }}
         />
         <img
-          src="/Vector 25.svg"
+          src={assetUrl('/Vector 25.svg')}
           alt=""
           aria-hidden="true"
           className="w-full object-cover absolute top-0 h-[100px] md:h-[174px]"
@@ -63,7 +64,7 @@ const Header = ({ userName = 'habibi<3' }) => {
             </Link>
           ))}
           <img
-            src="/profile.png"
+            src={assetUrl('/profile.png')}
             alt="Profile"
             className="w-10 h-10 rounded-full object-cover cursor-pointer"
             onClick={() => navigate('/profile')}
@@ -73,7 +74,7 @@ const Header = ({ userName = 'habibi<3' }) => {
         {/* Mobile — profile + hamburger */}
         <div className="flex md:hidden items-center gap-3">
           <img
-            src="/profile.png"
+            src={assetUrl('/profile.png')}
             alt="Profile"
             className="w-8 h-8 rounded-full object-cover cursor-pointer"
             onClick={() => navigate('/profile')}

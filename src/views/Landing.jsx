@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
+import { assetUrl } from '../utils/assetUrl'
 
 export default function Landing() {
   return (
     <div
       className="relative h-screen w-full bg-cover bg-center flex flex-col items-center justify-center"
-      style={{ backgroundImage: "url('/landingbg.jpg')" }}
+      style={{ backgroundImage: `url('${assetUrl('/landingbg.jpg')}')` }}
     >
       {/* brown blur overlay */}
       <div className="absolute inset-0 bg-[#5c3b2e]/50 backdrop-blur-sm"></div>
@@ -14,7 +15,7 @@ export default function Landing() {
 
         {/* logo */}
         <img
-          src="/romalogo.png"
+          src={assetUrl('/romalogo.png')}
           alt="RO.MA Logo"
           className="w-32 h-32 lg:w-80 lg:h-80 object-contain drop-shadow-lg"
         />

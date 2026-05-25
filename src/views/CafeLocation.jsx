@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import { assetUrl } from '../utils/assetUrl'
 
 export default function CafeLocation() {
   return (
@@ -9,7 +10,7 @@ export default function CafeLocation() {
 
       {/* Wave banner */}
       <div className="relative w-full">
-        <img src="/Vector 25.svg" alt="" className="w-full block" style={{ transform: 'scaleY(-1)' }} />
+        <img src={assetUrl('/Vector 25.svg')} alt="" className="w-full block" style={{ transform: 'scaleY(-1)' }} />
         <p
           className="absolute inset-0 flex items-center justify-center text-2xl md:text-3xl font-bold text-[#3B1F0E]"
           style={{ fontFamily: 'Poppins, sans-serif' }}
@@ -25,7 +26,7 @@ export default function CafeLocation() {
           {/* Map image */}
           <div className="w-full rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/Location (1).png"
+              src={assetUrl('/Location (1).png')}
               alt="Cafe Location Map"
               className="w-full h-full object-cover"
             />

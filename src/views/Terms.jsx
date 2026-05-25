@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import { assetUrl } from '../utils/assetUrl'
 
 const terms = [
   {
@@ -82,7 +83,7 @@ export default function Terms() {
 
       {/* Wave banner */}
       <div className="relative w-full">
-        <img src="/Vector 25.svg" alt="" className="w-full block" style={{ transform: 'scaleY(-1)' }} />
+        <img src={assetUrl('/Vector 25.svg')} alt="" className="w-full block" style={{ transform: 'scaleY(-1)' }} />
         <p
           className="absolute inset-0 flex items-center justify-center text-2xl md:text-3xl font-bold text-[#3B1F0E]"
           style={{ fontFamily: 'Poppins, sans-serif' }}

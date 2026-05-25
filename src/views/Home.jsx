@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import { assetUrl } from '../utils/assetUrl'
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
 
         {/* Left image — matcha */}
         <img
-          src="/matcha latte.png"
+          src={assetUrl('/matcha latte.png')}
           alt="Matcha Latte"
           className="absolute left-0 z-20 w-[32%] max-w-[160px] bottom-[28%]
                      md:max-w-[380px] md:bottom-8
@@ -31,7 +32,7 @@ const Home = () => {
 
         {/* Right image — waffle */}
         <img
-          src="/almond nutella waffle.png"
+          src={assetUrl('/almond nutella waffle.png')}
           alt="Almond Waffle"
           className="absolute right-0 z-20 w-[32%] max-w-[160px] bottom-[34%]
                      md:max-w-[380px] md:bottom-28
@@ -78,11 +79,11 @@ const Home = () => {
       {/* ================= SEC 2 ================= */}
       <section
         className="relative py-12 md:py-20 px-4 md:px-6 bg-cover bg-center"
-        style={{ backgroundImage: "url('/paperbg.png')" }}
+        style={{ backgroundImage: `url('${assetUrl('/paperbg.png')}')` }}
       >
         {/* BorderDown overlapping from top */}
         <img
-          src="/BorderDown.png"
+          src={assetUrl('/BorderDown.png')}
           alt=""
           className="absolute top-0 left-0 w-full z-10"
           style={{ transform: 'translateY(-50%) scaleX(1.1)', transformOrigin: 'top center' }}
@@ -98,20 +99,20 @@ const Home = () => {
           {[
             {
               title: 'Caramel Popcorn Latte',
-              img: '/caramelpopcornlatte (1).png',
-              bg: '/caramelPopcornLattebg.png',
+              img: assetUrl('/caramelpopcornlatte (1).png'),
+              bg: assetUrl('/caramelPopcornLattebg.png'),
               desc: 'A delightful blend of coffee and sweet caramel popcorn.',
             },
             {
               title: 'Pistachio Latte',
-              img: '/pistaciolatte (1).png',
-              bg: '/pistaciobg.png',
+              img: assetUrl('/pistaciolatte (1).png'),
+              bg: assetUrl('/pistaciobg.png'),
               desc: 'Creamy Pistachio goodness in every sip.',
             },
             {
               title: 'Turon Latte',
-              img: '/turonlatte (1).png',
-              bg: '/turonlattebg.png',
+              img: assetUrl('/turonlatte (1).png'),
+              bg: assetUrl('/turonlattebg.png'),
               desc: 'Coffee with a Filipino twist topped with crispy turon.',
             },
           ].map((drink, index) => (
@@ -146,7 +147,7 @@ const Home = () => {
       {/* ================= SEC 3 ================= */}
       <section className="relative bg-[#5E2B00]">
         <img
-          src="/BorderDown.png"
+          src={assetUrl('/BorderDown.png')}
           alt=""
           className="absolute top-0 left-0 w-full z-10"
           style={{ transform: 'translateY(-50%) scaleX(1.1)', transformOrigin: 'top center' }}
@@ -155,10 +156,10 @@ const Home = () => {
         {/* --- Block 1: Pistachio Waffle --- */}
         <div
           className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-16 px-6 py-16 md:py-24 bg-cover bg-center"
-          style={{ backgroundImage: "url('/tornpaperbg.png')" }}
+          style={{ backgroundImage: `url('${assetUrl('/tornpaperbg.png')}')` }}
         >
           <img
-            src="/pistaciowaffle (1).png"
+            src={assetUrl('/pistaciowaffle (1).png')}
             alt="Pistachio Waffle"
             className="w-[40%] max-w-[160px] md:max-w-[400px] flex-shrink-0"
           />
@@ -178,7 +179,7 @@ const Home = () => {
         {/* --- Block 2: Kani Salad --- */}
         <div
           className="flex flex-col-reverse md:flex-row items-center justify-center gap-6 md:gap-16 px-6 py-16 md:py-24 bg-cover bg-center"
-          style={{ backgroundImage: "url('/tornpaperbg.png')" }}
+          style={{ backgroundImage: `url('${assetUrl('/tornpaperbg.png')}')` }}
         >
           <div className="text-center -mt-6 md:mt-0">
             <h1 className="text-[#FFE3B1] font-semibold mb-3 md:mb-6 text-2xl sm:text-3xl md:text-5xl">
@@ -192,7 +193,7 @@ const Home = () => {
             </button>
           </div>
           <img
-            src="/kanisalad.png"
+            src={assetUrl('/kanisalad.png')}
             alt="Kani Salad"
             className="w-[40%] max-w-[160px] md:max-w-[450px] flex-shrink-0"
           />

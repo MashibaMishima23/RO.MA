@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
+import { assetUrl } from '../utils/assetUrl'
 
 const DesktopLogin = () => {
   const navigate = useNavigate()
@@ -12,7 +13,7 @@ const DesktopLogin = () => {
 
       {/* Full-page background photo */}
       <img
-        src="/bg3315-ufnk-1100h.png"
+        src={assetUrl('/bg3315-ufnk-1100h.png')}
         alt="Roma café background"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
@@ -33,7 +34,7 @@ const DesktopLogin = () => {
         >
           {/* Card background image — parchment + cookie */}
           <img
-            src="/beigeandgreyelegantaestheticminimalbeautystudiobra3350-cdr-800w.png"
+            src={assetUrl('/beigeandgreyelegantaestheticminimalbeautystudiobra3350-cdr-800w.png')}
             alt=""
             aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover object-top"

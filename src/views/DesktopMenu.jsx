@@ -1,11 +1,12 @@
 import { useNavigate } from 'react-router-dom'
 import Header from '../components/Header'
+import { assetUrl } from '../utils/assetUrl'
 
 const categories = [
-  { label: 'Non Coffee',  img: '/nonCoffee.png',      to: '/menu/non-coffee' },
-  { label: 'Coffee',      img: '/coffee (2).png',      to: '/menu/coffee' },
-  { label: 'Cold Drinks', img: '/coldDrinks (1).png',  to: '/menu/cold-drinks' },
-  { label: 'Foods',       img: '/Foods (1).png',       to: '/menu/foods' },
+  { label: 'Non Coffee',  img: assetUrl('/nonCoffee.png'),      to: '/menu/non-coffee' },
+  { label: 'Coffee',      img: assetUrl('/coffee (2).png'),      to: '/menu/coffee' },
+  { label: 'Cold Drinks', img: assetUrl('/coldDrinks (1).png'),  to: '/menu/cold-drinks' },
+  { label: 'Foods',       img: assetUrl('/Foods (1).png'),       to: '/menu/foods' },
 ]
 
 export default function DesktopMenu() {
@@ -20,7 +21,7 @@ export default function DesktopMenu() {
       {/* Vector 25 flipped — wave banner */}
       <div className="relative w-full">
         <img
-          src="/Vector 25.svg"
+          src={assetUrl('/Vector 25.svg')}
           alt=""
           className="w-full block"
           style={{ transform: 'scaleY(-1)' }}
@@ -40,7 +41,7 @@ export default function DesktopMenu() {
 
             {/* Lamp */}
             <img
-              src="/lightlamp (1).png"
+              src={assetUrl('/lightlamp (1).png')}
               alt=""
               aria-hidden="true"
               className="w-36 object-contain"
@@ -50,7 +51,7 @@ export default function DesktopMenu() {
             {/* Light ray + image */}
             <div className="relative flex flex-col items-center w-full">
               <img
-                src="/lightray.png"
+                src={assetUrl('/lightray.png')}
                 alt=""
                 aria-hidden="true"
                 className="absolute left-1/2 -translate-x-1/2 z-20 pointer-events-none"

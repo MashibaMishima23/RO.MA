@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { assetUrl } from '../utils/assetUrl'
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
 
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <img src="/romalogo.png" alt="RO.MA Cafe" className="w-20 h-20 object-contain" />
+            <img src={assetUrl('/romalogo.png')} alt="RO.MA Cafe" className="w-20 h-20 object-contain" />
             <p className="text-sm opacity-80 leading-relaxed">
               A cozy coffee shop in the heart of Gingoog City. Every cup tells a story.
             </p>

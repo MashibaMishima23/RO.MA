@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import { assetUrl } from '../utils/assetUrl'
 
 export default function DesktopContacts() {
   return (
@@ -10,7 +11,7 @@ export default function DesktopContacts() {
       {/* Vector 25 flipped — wave banner */}
       <div className="relative w-full">
         <img
-          src="/Vector 25.svg"
+          src={assetUrl('/Vector 25.svg')}
           alt=""
           className="w-full block"
           style={{ transform: 'scaleY(-1)' }}

@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import Header from '../components/Header'
+import { assetUrl } from '../utils/assetUrl'
 
 const menuItems = [
   {
@@ -82,7 +83,7 @@ export default function DesktopMore() {
       {/* Vector 25 flipped — wave banner */}
       <div className="relative w-full">
         <img
-          src="/Vector 25.svg"
+          src={assetUrl('/Vector 25.svg')}
           alt=""
           className="w-full block"
           style={{ transform: 'scaleY(-1)' }}
